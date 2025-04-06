@@ -6,26 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        .font-bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+
+        }
+    </style>
 </head>
 
-<body>
+<body class="font-roboto">
 
     <header class="bg-[#FFFBF0] pl-4">
-        <!-- Start Navbar -->
+        <!-- navbar start -->
         <nav>
 
         </nav>
-        <!-- End Navbar -->
-
-        <!-- Start Top Banner Section -->
-        <div class="md:flex">
+        <!-- banner start -->
+        <div class="md:flex md:items-center md:justify-around">
             <div>
-                <h1 class="text-7xl uppercase"><span class="text-orange-400">Be the Penguins</span> <br><span
-                        class="text-stone-800"> of
-                        Winter</span></h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <h1 class="text-7xl uppercase font-bebas-neue">
+                    <span class="text-orange-400">Be the Penguins</span>
+                    <br>
+                    <span class="text-stone-800">of Winter</span>
+                </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
                 <button
-                    class="bg-linear-to-r from-[#A4BC46] to-[#85A019] px-8 py-4 rounded-xl font-medium text-white  ">
+                    class="bg-green-300 px-8 py-4 rounded-xl font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6 text-white inline">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -33,13 +50,11 @@
                     </svg>
 
                     BUY NOW</button>
-
             </div>
             <div>
-                <img src="./Assests/images/model.png" alt="Penguin">
+                <img src="Assests/images/model.png" alt="">
             </div>
         </div>
-        <!-- End Top Banner Section -->
     </header>
     <main></main>
     <footer></footer>
